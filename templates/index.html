@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Websay</title>
+</head>
+<body class="bg-[#672E61] text-white ">
+    <nav class="flex justify-between m-4 p-5 border-b-2 border-b-white ">
+        <div class="flex justify space-x-4">
+        <a href="#">Course Categories</a>
+        <a href="#">Career</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        </div>
+        <div>
+            <h1 class="text-3xl text-yellow-300 font-bold shadow-lg">{{comet}}</h1>
+        </div>  
+        <div class="flex space-x-4 ">
+ 
+            <a class="text-yellow-400 font-bold underline" href="#">Login</a>
+            <button class="justify-center text-black font-bold bg-yellow-400 rounded-3xl px-4 py-2 no-underline">Get Started</button> 
+        </div>
+         
+    </nav>
+    <section class="flex mb-10">
+        <div class="mt-14 ml-36 ">
+            
+                <img src="{{url_for('static', filename='images/upline.png')}}" alt="upline"> <!--1-->
+                <h1 class="text-6xl text-yellow-300 font-bold m-3 justify-center">{{improve}} Your Design Skill <br>And Better Future</h1>
+                <h1 class="m-3">{{improve}} Your design and future and whatever you want to do just to do it.Bohot sara text mai likh rha <br>hu yu hi timepaas me</h1>
+                <button class="justify-center text-black font-bold bg-yellow-400 rounded-3xl px-4 py-2 m-3">Get Started</button>
+                <img class="pl-52" src="../static/images/downline.png" alt="downline"> <!--Better than 1-->
+
+        </div>
+        <div class="">
+            <img src="../static/images/hero.png" alt="HERO HATHIN">
+        </div>
+        
+    </section> 
+    
+    <section class="">
+        <div class="bg-[#f3fcec] rounded-tr-full  h-28 ">
+
+        </div>
+        <div class="bg-[#f3fcec] flex text-[#672E61]  justify-center " >
+            <div class="border-4 rounded-3xl border-yellow-300 flex m-5 p-5 space-x-6 text-5xl font-extrabold shadow-rose-300 shadow-2xl">
+            <div>Netflix</div>
+            <div>airbnb</div>
+            <div>games</div>
+            <div>Google</div>
+            </div>
+        </div>
+        <div class="bg-[#f3fcec]  rounded-bl-full h-28 mb-20 ">
+
+        </div>
+    </section>
+
+    <section class="flex mb-10">
+        <div class="ml-28">
+            <div class="flex">
+                <div>
+                    <img class="border-2 border-yellow-400 h-52 w-52 rounded-r-full rounded-bl-full" src="../static/images/navneet.jpg" alt="photu">
+                </div>
+                <div>
+                    <img class="border-2 border-yellow-400 h-52 w-52 rounded-l-full rounded-br-full" src="../static/images/kush.jpg" alt="photu">
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <img class="border-2 border-yellow-400 h-52 w-52 rounded-r-full rounded-tl-full" src="../static/images/ashutosh.jpg" alt="photu">
+                </div>
+                <div>
+                    <img class="border-2 border-yellow-400 h-52 w-52 rounded-l-full rounded-tr-full" src="../static/images/chuha.jpg" alt="photu">
+                </div>
+            </div>
+        </div>
+        <div class="mt-14 ml-36 ">
+            
+            
+            <h1 class="text-6xl text-yellow-300 font-bold m-3 justify-center">{{improve}} Your Design Skill <br>And Better Future</h1>
+            <h1 class="m-3">{{improve}} Your design and future and whatever you want to do just to do it.Bohot sara text mai likh rha <br>hu yu hi timepaas me</h1>
+            <button class="justify-center text-black font-bold bg-yellow-400 rounded-3xl px-4 py-2 m-3">Get Started</button>
+            <img src="../static/images/upline.png" alt="upline">
+            
+
+    </div>
+    </section>
+
+    <section class="bg-[#f3fcec] text-white p-10">
+       <div class="text-[#672E61] text-center text-5xl font-bold mb-8">Our Courses</div>
+       <div class="flex text-[#672E61] justify-evenly text-3xl font-bold ">
+        <div class="mb-8">Graphic Design</div>
+        <div class="mb-8 text-yellow-400">UI/UX</div>
+        <div class="mb-8">Illustration</div>
+        <div class="mb-8">Vintage Art</div>
+       </div>
+
+       <div class="space-y-4">
+       <div class="flex justify-evenly" >
+        <div class="bg-[#672E61] rounded-2xl">
+            <div><img class="border-2 h-52 w-52 rounded-2xl" src="../static/images/course.jpg" alt="imaggee"></div>
+            <div class="text-white bg-[#672E61] text-center rounded-b-2xl p-4 font-bold">Advance graphic <br>design and ui/ux</div>
+        </div>
+        
+        <div class="bg-[#672E61] rounded-2xl">
+            <div><img class="border-2 h-52 w-52 rounded-2xl" src="../static/images/course.jpg" alt="imaggee"></div>
+            <div class="text-white bg-[#672E61] text-center rounded-b-2xl p-4 font-bold">Advance graphic <br>design and ui/ux</div>
+        </div>
+        <div class="bg-[#672E61] rounded-2xl">
+            <div><img class="border-2 h-52 w-52 rounded-2xl" src="../static/images/course.jpg" alt="imaggee"></div>
+            <div class="text-white bg-[#672E61] text-center rounded-b-2xl p-4 font-bold">Advance graphic <br>design and ui/ux</div>
+        </div>
+        <div class="bg-[#672E61] rounded-2xl">
+            <div><img class="border-2 h-52 w-52 rounded-2xl" src="../static/images/course.jpg" alt="imaggee"></div>
+            <div class="text-white bg-[#672E61] text-center rounded-b-2xl p-4 font-bold">Advance graphic <br>design and ui/ux</div>
+        </div>
+       </div>
+       <div class="flex justify-evenly">
+        <div class="bg-[#672E61] rounded-2xl">
+            <div><img class="border-2 h-52 w-52 rounded-2xl" src="../static/images/course.jpg" alt="imaggee"></div>
+            <div class="text-white bg-[#672E61] text-center rounded-b-2xl p-4 font-bold">Advance graphic <br>design and ui/ux</div>
+        </div>
+        <div class="bg-[#672E61] rounded-2xl">
+            <div><img class="border-2 h-52 w-52 rounded-2xl" src="../static/images/course.jpg" alt="imaggee"></div>
+            <div class="text-white bg-[#672E61] text-center rounded-b-2xl p-4 font-bold">Advance graphic <br>design and ui/ux</div>
+        </div>
+        <div class="bg-[#672E61] rounded-2xl">
+            <div><img class="border-2 h-52 w-52 rounded-2xl" src="../static/images/course.jpg" alt="imaggee"></div>
+            <div class="text-white bg-[#672E61] text-center rounded-b-2xl p-4 font-bold">Advance graphic <br>design and ui/ux</div>
+        </div>
+        <div class="bg-[#672E61] rounded-2xl">
+            <div><img class="border-2 h-52 w-52 rounded-2xl" src="../static/images/course.jpg" alt="imaggee"></div>
+            <div class="text-white bg-[#672E61] text-center rounded-b-2xl p-4 font-bold">Advance graphic <br>design and ui/ux</div>
+        </div>
+       </div>
+       </div>
+    </section>
+
+
+    <section class="flex mb-10">
+        <div class="mt-14 ml-36 ">
+            
+                <img src="../static/images/upline.png" alt="upline">
+                <h1 class="text-6xl text-yellow-300 font-bold m-3 justify-center">Some of the best book designs<br>For you</h1>
+                <h1 class="m-3">{{improve}} Your design and future and whatever you want to do just to do it.Bohot sara text mai likh rha <br>hu yu hi timepaas me</h1>
+                <button class="justify-center text-black font-bold bg-yellow-400 rounded-3xl px-4 py-2 m-3">Start Learning</button>
+                <img class="pl-52" src="../static/images/downline.png" alt="upline">
+
+        </div>
+        <div class="">
+            <img src="../static/images/padhewalilaiki.png" alt="Laiki HATHIN">
+        </div>
+        
+    </section> 
+    
+    <section class="bg-[#f3fcec] text-white flex-col py-10">
+        <div class="flex justify-evenly">
+            <img src="../static/images/exleft.png" alt="">
+            <div class="text-[#672E61] text-center text-5xl font-bold mb-6">Explore Our Course</div>
+            <img src="../static/images/exright.png" alt="">
+        </div>
+        
+        <div class="justify-center space-x-6 flex p-4">
+            <div class="shadow-xl bg-white flex-col rounded-3xl w-64 p-4">
+                <div class="flex ">
+                    <img class="h-12 w-12 rounded-full " src="../static/images/navneet.jpg" alt="placeholder image">
+                    <div class="pl-4">
+                        <h1 class="text-[#672E61] text-lg">Navneet Kumar</h1>
+                        <h1 class="text-black text-sm">Developer</h1>
+                    </div>
+
+                </div>
+                <div class="my-2">⭐⭐⭐⭐⭐</div>
+                <div class="text-black">
+                    This is a description of the first feature of our app. We are going to briefly outline what this feature does
+                </div>
+            </div>
+            
+            <div class="shadow-xl bg-white flex-col rounded-3xl w-64 p-4">
+                <div class="flex ">
+                    <img class="h-12 w-12 rounded-full " src="../static/images/kush.jpg" alt="placeholder image">
+                    <div class="pl-4">
+                        <h1 class="text-[#672E61] text-lg">Kush Raj</h1>
+                        <h1 class="text-black text-sm">Developer</h1>
+                    </div>
+
+                </div>
+                <div class="my-2">⭐⭐⭐⭐⭐</div>
+                <div class="text-black">
+                    This is a description of the first feature of our app. We are going to briefly outline what this feature does
+                </div>
+            </div>
+
+            <div class="shadow-xl bg-white flex-col rounded-3xl w-64 p-4">
+                <div class="flex ">
+                    <img class="h-12 w-12 rounded-full " src="../static/images/ashutosh.jpg" alt="placeholder image">
+                    <div class="pl-4">
+                        <h1 class="text-[#672E61] text-lg">Ashutosh Kumar</h1>
+                        <h1 class="text-black text-sm">Developer</h1>
+                    </div>
+
+                </div>
+                <div class="my-2">⭐⭐⭐⭐⭐</div>
+                <div class="text-black">
+                    This is a description of the first feature of our app. We are going to briefly outline what this feature does
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    
+
+</body>
+
+<footer class="bg-[#672E61] p-24 font-semibold text-xl">
+    <div class="bg-[#f3fcec] rounded-3xl p-3 py-7">
+        <div class="border-b-2 border-b-blue-950 justify-between flex py-3">
+            <div class="text-blue-950 space-x-6 flex">
+                <h1>Course</h1>
+                <h1>Resourse</h1>
+                <h1>Links</h1>
+                <h1>Company</h1>
+            </div>
+            <div class="text-blue-950 space-x-6 flex">
+                <h1 class="shadow-xl rounded-full shadow-rose-300">🍩</h1>
+                <h1 class="shadow-xl rounded-full shadow-rose-300">🍫</h1>
+                <h1 class="shadow-xl rounded-full shadow-rose-300">😎</h1>
+                <h1 class="shadow-xl rounded-full shadow-rose-300">🎃</h1>
+            </div>
+
+        </div>
+        <div class="flex justify-between ">
+            <div class="text-blue-950 space-x-6 flex">
+                <h1>Designed by</h1>
+                <h1 class="text-yellow-300">{{comet}}</h1>
+                
+            </div>
+            <div class="text-blue-950 space-x-6 flex">
+                <h1>Copyrighted by</h1>
+                <h1 class="text-yellow-300">No one</h1>
+                
+            </div>
+        </div>
+
+    </div>
+    
+</footer>
+</html>
