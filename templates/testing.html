@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Doc</title>
+</head>
+<body class = "flex-col justify-center">
+    <h1 class = "bg-green-300 m-10">All users of our website :</h1>
+    {% for i in user_list %}
+        <div class = "h-16 bg-green-400 m-5">
+            <h1>{{i}}</h1>
+        </div>
+    {% endfor %}
+</body>
+</html>

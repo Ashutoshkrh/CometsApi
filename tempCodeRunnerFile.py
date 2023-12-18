@@ -1,0 +1,1 @@
+database.push({"hello" : "navneet"})
